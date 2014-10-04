@@ -5,10 +5,12 @@ export default Ember.Controller.extend({
   genders: ['', 'female', 'male'],
 
   predictedScore: function() {
-    var sum = parseInt(this.get('mcat')) + parseInt(this.get('age'));
+    // just making this up as an example
+    var sum = (parseInt(this.get('mcat')) * 7) + (20 / parseInt(this.get('age')));
     if (this.get('selectedGender') === 'female') {
       sum = sum * 1.2;
     }
     return sum;
+    // put all values here that should trigger a recalculation
   }.property('selectedGender', 'mcat', 'age')
 });
