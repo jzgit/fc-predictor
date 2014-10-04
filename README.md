@@ -5,7 +5,6 @@
 * `curl -L https://npmjs.org/install.sh | sh` install npm if you don't have it
 * `npm install -g bower` install bower if you don't have it
 * `npm install -g ember-cli` install ember-cli
-
 * `git clone git@github.com:jzgit/fc-predictor.git` this repository
 * change into the new directory
 * `npm install`
