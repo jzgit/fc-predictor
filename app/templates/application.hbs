@@ -1,3 +1,16 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<h2 id='title'>Firecracker Score Predictor</h2>
 
-{{outlet}}
+MCAT: {{input type='text' value=mcat}}<br>
+AGE: {{input type='text' value=age}}<br>
+GENDER: {{view Ember.Select content=genders value=selectedGender }}<br>
+
+<br>
+
+MCAT: {{mcat}}<br>
+AGE: {{age}}<br>
+GENDER: {{selectedGender}}<br>
+
+<br>
+
+Predicted Score: {{predictedScore}}
+
