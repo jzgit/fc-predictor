@@ -3,7 +3,7 @@
 ## Installation
 
 * `npm install -g ember-cli` install ember-cli
-* `git clone <repository-url>` this repository
+* `git clone git@github.com:jzgit/fc-predictor.git` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
